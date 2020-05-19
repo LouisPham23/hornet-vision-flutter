@@ -45,5 +45,23 @@ final kCardLocation = TextStyle(
 final kCardTime = TextStyle(
   color: gray600,
   fontFamily: 'OpenSans',
-  fontSize: 14.0,
+  fontSize: 16.0,
+);
+
+final kListItemDay = TextStyle(
+  color: gray900,
+  fontSize: 50,
+  fontFamily: 'OpenSans',
+);
+
+final kListItemLocation = TextStyle(
+  color: Colors.white,
+  fontSize: 16,
+  fontFamily: 'OpenSans',
+);
+final kListItemTitle = TextStyle(
+  color: gray900,
+  fontSize: 18,
+  fontFamily: 'OpenSans',
+  fontWeight: FontWeight.bold,
 );
