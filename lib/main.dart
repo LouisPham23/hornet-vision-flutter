@@ -33,6 +33,13 @@ class _HomePageLayoutState extends State<HomePageLayout> {
       length: 4,
       initialIndex: 0,
       child: Scaffold(
+        drawer: Drawer(
+          child: Column(
+            children: <Widget>[
+              Text('Item 1'),
+            ],
+          ),
+        ),
         appBar: AppBar(
           elevation: 0.0,
           title: Text(
